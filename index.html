@@ -26,7 +26,7 @@ header {
     color: white;
     padding: 20px 8%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 .logo img {
@@ -35,11 +35,20 @@ header {
 }
 
 .company-name {
-    font-size: 44px;
-    font-weight: bond;
+    font-size: 40px;
+    font-weight: bold;
     color: white;
+    margin-left: 20px;
+    margin-right: auto;
 }
-
+    
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 19px;
+    font-weight: bold;
+}
 .logo span {
     color: #d4af37;
 }
@@ -195,6 +204,16 @@ footer {
 
 @media(max-width:700px){
 
+    .company-name {
+    margin: 10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 8px;
+    font-size: 16px;
+}
 header {
 
     flex-direction:column;
