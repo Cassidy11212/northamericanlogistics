@@ -47,18 +47,20 @@ nav a {
 }
 
 .hero {
-    height: 50vh;
-}
+    min-height: 50vh;
     background:
-    linear-gradient(rgba(0,43,92,.75),rgba(0,43,92,.75)),
-    url("https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1800&q=80")
-
+        linear-gradient(rgba(0, 43, 92, 0.75), rgba(0, 43, 92, 0.75)),
+        url("https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1800&q=80");
     background-size: cover;
     background-position: center;
+    color: white;
+    padding: 30px 8%;
+    text-align: center;
 
-    color:white;
-    padding:30px 8%;
-    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1 {
